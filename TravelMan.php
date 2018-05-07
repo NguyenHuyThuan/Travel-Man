@@ -26,6 +26,7 @@ class TravelMan {
 	 * @param $pStartLong
 	 * @param $pointDesLat
 	 * @param $pointDesLong
+	 * @param $earthRadius
 	 * @return float distance
 	 */
 	private function calculateDistance($pStartla, $pStartLong, $pointDesLat, $pointDesLong, $earthRadius = 6371000) {
